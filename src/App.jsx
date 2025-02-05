@@ -1,3 +1,6 @@
+import "./global.css";
+import "./reset.css";
+
 function App() {
   return (
     <>
