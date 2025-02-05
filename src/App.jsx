@@ -3,6 +3,7 @@ import "./reset.css";
 
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import ProfileLink from "./components/ProfileLink/ProfileLink";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <ProfileLink text="Twitter" link="https://x.com/" />
         <ProfileLink text="Instagram" link="https://www.instagram.com/" />
       </ProfileCard>
+      <Footer color="" linkColor="" />
     </>
   );
 }
