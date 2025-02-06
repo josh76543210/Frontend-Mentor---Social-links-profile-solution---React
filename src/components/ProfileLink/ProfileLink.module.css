@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: calc((14 / 16) * 1rem);
+  background-color: var(--gray-700);
+  padding: 0.75rem;
+  border-radius: 7px;
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
+
+  display: block;
+}
+
+.link:hover {
+  background-color: var(--green);
+  color: var(--gray-900);
+}

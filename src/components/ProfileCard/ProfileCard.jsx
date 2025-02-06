@@ -9,12 +9,16 @@ function ProfileCard({
   description = "Front-end developer and avid reader.",
 }) {
   return (
-    <div>
-      <img src={avatar} alt={`${name}'s avatar`} />
-      <p>{name}</p>
-      <p>{location}</p>
-      <p>{description}</p>
-      <div>{children}</div>
+    <div className={styles.cardContainer}>
+      <div className={styles.card}>
+        <img className={styles.avatar} src={avatar} alt={`${name}'s avatar`} />
+        <div className={styles.infoContainer}>
+          <p className={styles.name}>{name}</p>
+          <p className={styles.location}>{location}</p>
+        </div>
+        <p className={styles.description}>&quot;{description}&quot;</p>
+        <div className={styles.linkContainer}>{children}</div>
+      </div>
     </div>
   );
 }
