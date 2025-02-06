@@ -22,7 +22,7 @@ function App() {
         <ProfileLink text="Twitter" link="https://x.com/" />
         <ProfileLink text="Instagram" link="https://www.instagram.com/" />
       </ProfileCard>
-      <Footer color="" linkColor="" />
+      <Footer />
     </>
   );
 }
