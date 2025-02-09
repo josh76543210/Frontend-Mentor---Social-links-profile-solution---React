@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-h_lE60EjwI](https://www.frontendmentor.io/solutions/social-links-profile-h_lE60EjwI)
+- Live Site URL: [https://josh76543210-fm-social-links-profile.netlify.app/](https://josh76543210-fm-social-links-profile.netlify.app/)
 
 ## My process
 
